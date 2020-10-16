@@ -1,0 +1,8 @@
+{
+  "name": "Collabora",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue",
+  "id": "3288c7b0"
+}
