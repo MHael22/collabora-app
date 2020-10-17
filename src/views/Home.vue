@@ -18,7 +18,7 @@
     
       <div id="container">
         <strong class="capitalize">{{ folder }}</strong>
-        <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+        <p>Explore how to Collaborate</p>
       </div>
     </ion-content>
   </ion-page>
@@ -42,7 +42,7 @@ export default {
   },
   setup() {
     const route = useRoute();
-    const folder = ref(route.params.id || 'Inbox');
+    const folder = ref(route.params.id || 'Home');
     const matchedFolder = computed(() => route.params.id);
     
     watch(matchedFolder, () => {
